@@ -37,7 +37,6 @@ function startGame() {
                 document.querySelector("#ws").innerHTML = wins;
                 alert("CONGRATULATIONS! YOU WON!")
                 
-
                 resetGame();
             } 
             else { 
