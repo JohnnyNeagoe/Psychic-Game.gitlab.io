@@ -69,6 +69,7 @@ function startGame() {
         document.querySelector("#ls").innerHTML = losses;
         document.querySelector("#tries").innerHTML = totalGuesses;
         document.querySelector("#gsf").innerHTML = past;
+        alert("YOU LOST, SORRY TRY AGAIN!")
 
         startGame();
         }

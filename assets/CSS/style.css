@@ -45,7 +45,7 @@ p {
 #outline{
     position: absolute;
     width:80%;
-    height:85%;
+    height:90%;
     background-color:#095681;
     margin-top:15px;
     margin-left:10%;
@@ -73,8 +73,8 @@ p {
     margin-left:14%;
     float: left;
     background-color:#80ceff;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:108px;
+    padding-right:108px;
     padding-top:20px;
     padding-bottom:40px;
     border-radius: 75%;
@@ -95,7 +95,7 @@ p {
     position: relative;
 }
 #container4 {
-    margin-top:15px;
+    margin-top:60px;
     margin-left: 39.5%;
     margin-right: 39.5%;
     float: left;
@@ -107,6 +107,22 @@ p {
     z-index: 2;
     position: relative;
     margin-bottom:200px;
+}
+#container6 {
+    float: left;
+    border-radius: 2px;
+    z-index: 2;
+    position: absolute;
+    left:40%;
+    right:41%;
+    top: 63%;
+}
+
+#container6 > img{
+    width:130px;
+    height:130px;
+    border-radius: 100%;
+
 }
 #container5 {
     margin-top:25px;
@@ -120,6 +136,7 @@ p {
     border-radius: 2px;
     z-index: 2;
     position: relative;
+    text-align: center;
 }
 
 footer{
