@@ -1,5 +1,3 @@
-
-//A variable named computerChoice has a value of all the letters presented in the array below, (alphabet)
 var computerChoices = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l" , "z", "x", "c", "v", "b", "n", "m"]
 
 var totalGuesses = 9;
@@ -58,7 +56,8 @@ function startGame() {
         document.querySelector("#tries").innerHTML = totalGuesses; 
 
         startGame();
-    }
+    };
+
     function noMoreGuesses() {
         if (totalGuesses === 0){
         losses++;
@@ -71,8 +70,8 @@ function startGame() {
         alert("YOU LOST, SORRY TRY AGAIN!")
 
         startGame();
-        }
-    }
+        };
+    };
 };
 
 

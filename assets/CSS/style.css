@@ -148,7 +148,7 @@ footer{
     bottom:0%;
     position: absolute;
     width:99.7%;
-    bottom:-25%;
+    margin-bottom:-16%;
 }
 
 footer > p {
